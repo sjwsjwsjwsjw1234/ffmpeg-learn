@@ -1,0 +1,22 @@
+CompileFlags:
+  Add:
+    - "-Wno-deprecated-declarations"
+    - "-Wno-incompatible-pointer-types"
+    - "-ferror-limit=0"
+
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
+  ClangTidy:
+    Add: []
+    Remove: "*"
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
+
+Completion:
+  AllScopes: Yes
+
+Hover:
+  ShowAKA: Yes

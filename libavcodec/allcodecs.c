@@ -421,6 +421,9 @@ extern const FFCodec ff_zlib_decoder;
 extern const FFCodec ff_zmbv_encoder;
 extern const FFCodec ff_zmbv_decoder;
 
+/* Learning encoder for educational purposes */
+extern const FFCodec ff_learning_encoder;
+
 /* audio codecs */
 extern const FFCodec ff_aac_encoder;
 extern const FFCodec ff_aac_decoder;

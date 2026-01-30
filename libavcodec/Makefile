@@ -859,6 +859,9 @@ OBJS-$(CONFIG_ZLIB_ENCODER)            += lclenc.o
 OBJS-$(CONFIG_ZMBV_DECODER)            += zmbv.o
 OBJS-$(CONFIG_ZMBV_ENCODER)            += zmbvenc.o
 
+# Learning encoder for educational purposes
+OBJS-$(CONFIG_LEARNING_ENCODER)        += learning_encoder.o
+
 # (AD)PCM decoders/encoders
 OBJS-$(CONFIG_PCM_ALAW_DECODER)           += pcm.o
 OBJS-$(CONFIG_PCM_ALAW_ENCODER)           += pcm.o
